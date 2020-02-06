@@ -1585,7 +1585,7 @@ while True:
 			
 			################ 가장 근접한 보스타임 출력 ################ 
 			
-			if message.content == '!ㅂ' or message.content == command[14] or message.content == '!ㅃ' or message.content == '!Q':
+			if message.content == 'ㅋ' or message.content == command[14] or message.content == 'Z' or message.content == 'q':
 				
 				checkTime = datetime.datetime.now() + datetime.timedelta(days=1, hours = int(basicSetting[0]))
 				
